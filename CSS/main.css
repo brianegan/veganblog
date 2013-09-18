@@ -1,0 +1,245 @@
+/* ===================================================
+   LIVE CLEAN BETA 
+   =================================================== */
+
+   /*******************
+   Index
+   *******************/
+
+   body {
+
+   	height: 100%;
+   }
+
+   .mainheader h1{
+   	text-align: center;
+      color:#444;
+   	font-family:"Playfair Display SC", "Times New Roman", serif;
+      background-color:rgb(85, 245, 149);
+   }
+
+   .mainheader title {
+	  background-color:#444;
+	}
+
+
+   #navigation li{
+   		display: block;
+   		float:right;
+   		width: 25%;
+   		margin-top:15%;
+   		text-decoration: none;
+   		padding-right: 7%;
+   		position: relative;
+
+   }
+
+   #navigation li:hover{
+   		top:-30px;
+   		padding-bottom:150px;
+   }
+
+   #navigation a {
+   		color:#fafafa;
+   		font-size: 32px;
+         text-shadow: 0px 2px 2px black;
+   		font-family:"Playfair Display SC", "Times New Roman", serif;
+   		text-decoration: none;
+		   background:url("../images/watermelon.jpg");
+		   background-position: top; 	
+	     	background-size: 100%;
+   		padding: 37%;
+   		font-weight: bold;
+   }
+
+   #mainpagequote h2{
+	   	display: block;
+	   	color:#444;
+	   	margin-top:35%;
+	   	font-style: italic;
+	   	font-size: 18px;
+   }
+
+  /*******************
+   RECIPES Page
+   *******************/
+
+   .recipes {
+		width:54%;
+      float:right;
+  		margin-top:8%;
+      margin-bottom:20%;
+   	
+   }
+
+	#recipeimage {
+      float:left;
+      display: inline;
+	}
+
+   .recipetext p {
+   font-family: "Hammersmith One", "Times New Roman", serif;
+   text-align: left;
+   color:#444;
+   float:left;
+   width:25%;
+   margin-top:8%;
+   margin-left:9%;
+   font-size:30px;
+   }
+
+   .recipetext {
+      text-transform: none;
+   }
+
+   .pageheader {
+      border-bottom: 12px;
+   }
+
+
+	/**********************
+	Navigation-Recipe Page
+	**********************/
+
+	.navwrap li {
+		display: inline-block;
+		text-decoration: none;
+		float:right;
+		margin:10px;
+
+	}
+
+
+	.navwrap a {
+   	color:white;
+   	font-size: 18px;
+      text-shadow:-3px 2px 2px rgb(0, 0, 0);
+   	font-family:"Playfair Display SC", "Times New Roman", serif;
+   	text-decoration: none;
+		/*background:url("../images/orange.jpg");
+		background-repeat: no-repeat;
+		background-position: top; 	
+		background-size: 67%;
+   	padding: 43px;*/
+   	font-weight: bold;
+
+	}
+
+   .pageheader {
+      width: 100%;
+   }
+
+   /*********************
+   30 Days Page
+   *********************/
+      .navwrap2 li {
+         display: inline-block;
+         text-decoration: none;
+         float:right;
+         margin:10px;
+
+         }
+
+      .navwrap2 ul{
+         padding: 0px;
+      }
+
+      .navwrap2 a {
+         color:white;
+         font-size: 18px;
+         text-shadow:-3px 2px 2px rgb(0, 0, 0);
+         font-family:"Playfair Display SC", "Times New Roman", serif;
+         text-decoration: none;
+         /*background:url("../images/Single_Blueberry.jpg");
+         background-repeat: no-repeat;
+         background-position: top;  
+         background-size: 67%;
+         padding: 43px;*/
+         font-weight: bold;
+
+         }
+      .challengearticle p {
+         color:black;
+         font-size:16px;
+         font-family: "Hammersmith One", "Times New Roman", serif;
+         width: 900px;
+         padding-left:225px;
+         padding-top:20px;
+         text-align: left;
+      }
+
+      .challengearticle h2 {
+         color:black;
+         font-family: "Playfair Display SC", "Times New Roman", serif;
+         padding-top:75px;
+         text-align: left;
+         padding-left: 225px;
+
+      }
+
+      .challengearticle em {
+         color:black;
+         font-family:"Hammersmith One", "Times New Roman", serif;
+         padding-left: 225px;
+         text-transform: italics
+      }
+
+
+
+
+
+
+
+
+   /*********************
+   Footer Info
+   *********************/
+
+   .footwrap {
+      position: relative;
+      height: 155px;
+      clear:both;
+      background-color: rgb(85, 245, 149);
+
+   }
+
+   .footwrap img{
+      display: inline;
+      height:78px;
+      width:74px;
+      float:left;
+   }
+
+   .social-stickers{
+      margin-left:40%;
+   }
+
+   .footwrap h1,h2,h3,p, a{
+         font-family: "Playfair Display SC", "Times New Roman", serif;
+         color:#444;
+         text-decoration: none;
+   }
+
+   .centerfoot h1,h2,h3,p {
+         text-align: center;
+   }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
