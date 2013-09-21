@@ -27,7 +27,6 @@
 
    body {
 
-   	height: 960px;
    }
 
    .mainheader h1{
@@ -48,7 +47,7 @@
    #navigation li{
    		display: block;
    		float:right;
-         margin-right:78px;
+         margin-right:57px;
          width: 340px;
          height: 310px;
    		text-decoration: none;
@@ -90,6 +89,7 @@
       text-decoration: none;
       float:right;
       margin:10px;
+      margin-right:70px;
 
    }
 
@@ -115,7 +115,7 @@
    .recipes {
 		width:700px;
       float:right;
-  		margin-top:112px;
+  		margin-top:-1075px;
    	
    }
 
@@ -131,13 +131,14 @@
    color:#444;
    float:left;
    width:400px;
-   margin-top:58px;
-   margin-left:-114px;
+   margin-top:27px;
+   margin-right: 511px;
    font-size:30px;
    }
 
    .recipetext h2{
       float:left;
+      margin-right:500px;
    }  
 
    .pageheader {
@@ -204,7 +205,6 @@
    *********************/
 
    .footwrap {
-      position: relative;
       height: 155px;
       clear:both;
       background-color: rgb(85, 245, 149);
