@@ -115,7 +115,7 @@
    .recipes {
 		width:700px;
       float:right;
-  		margin-top:-1075px;
+  		margin-top:-1615px;
    	
    }
 
@@ -126,19 +126,20 @@
 
    .recipetext p {
    display: inline;
-   font-family: "Hammersmith One", "Times New Roman", serif;
+   font-family: "Chelsea Market","Hammersmith One", "Times New Roman", serif;
    text-align: left;
    color:#444;
    float:left;
    width:400px;
    margin-top:27px;
    margin-right: 511px;
-   font-size:30px;
+   font-size:28px;
    }
 
    .recipetext h2{
       float:left;
       margin-right:500px;
+      font-family: "Chelsea Market","Hammersmith One", "Times New Roman", serif;
    }  
 
    .pageheader {
@@ -219,7 +220,7 @@
    }
 
    .social-stickers{
-      margin-left:525px;
+      margin-left:487px;
    }
 
    .footwrap h1,h2,h3,p, a{
