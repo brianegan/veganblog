@@ -1,0 +1,254 @@
+/* ===================================================
+   LIVE CLEAN BETA 
+   =================================================== */
+   /**
+   Clear Fix
+   **/
+   .cf:before,
+   .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+   }
+
+   .cf:after {
+    clear: both;
+   }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+   /*******************
+   Index
+   *******************/
+
+   body {
+
+   }
+
+   .mainheader h1{
+   	text-align: center;
+      color:#444;
+   	font-family:"Playfair Display SC", "Times New Roman", serif;
+      background-color:rgb(85, 245, 149);
+   }
+
+   .mainheader title {
+	  background-color:#444;
+	}
+
+   #navigation {
+     height:400px;
+   }
+
+   #navigation li{
+   		display: block;
+   		float:right;
+         margin-right:57px;
+         width: 340px;
+         height: 310px;
+   		text-decoration: none;
+   		position: relative;
+         background:url("../images/watermelon.jpg");
+         background-position: top; 
+
+   }
+
+   #navigation li:hover{
+   		top:-30px;
+   }
+
+   #navigation a {
+   		color:#fafafa;
+         display: block;
+   		font-size: 32px;
+         padding-top: 140px;
+         text-shadow: 0px 2px 2px black;
+   		font-family:"Playfair Display SC", "Times New Roman", serif;
+   		text-decoration: none;	
+   		font-weight: bold;
+         text-align: center;
+   }
+
+   #mainpagequote h2{
+	   	display: block;
+	   	color:#444;
+	   	font-style: italic;
+	   	font-size: 18px;
+   }
+
+  /*******************
+   RECIPES Page
+   *******************/
+
+   .navwrap li {
+      display: inline-block;
+      text-decoration: none;
+      float:right;
+      margin:10px;
+      margin-right:70px;
+
+   }
+
+   .navwrap a {
+      color:white;
+      font-size: 18px;
+      text-shadow:-3px 2px 2px rgb(0, 0, 0);
+      font-family:"Playfair Display SC", "Times New Roman", serif;
+      text-decoration: none;
+      /*background:url("../images/orange.jpg");
+      background-repeat: no-repeat;
+      background-position: top;  
+      background-size: 67%;
+      padding: 43px;*/
+      font-weight: bold;
+
+   }
+
+   .pageheader {
+      width: 1328px;
+   }
+
+   .recipes {
+		width:700px;
+      float:right;
+  		margin-top:-1615px;
+   	
+   }
+
+	#recipeimage {
+      float:left;
+      display: inline;
+	}
+
+   .recipetext p {
+   display: inline;
+   font-family: "Chelsea Market","Hammersmith One", "Times New Roman", serif;
+   text-align: left;
+   color:#444;
+   float:left;
+   width:400px;
+   margin-top:27px;
+   margin-right: 511px;
+   font-size:28px;
+   }
+
+   .recipetext h2{
+      float:left;
+      margin-right:500px;
+      font-family: "Chelsea Market","Hammersmith One", "Times New Roman", serif;
+   }  
+
+   .pageheader {
+      border-bottom: 12px;
+   }
+
+   /*********************
+   30 Days Page
+   *********************/
+      .navwrap2 li {
+         display: inline-block;
+         text-decoration: none;
+         float:right;
+         margin:10px;
+
+         }
+
+      .navwrap2 ul{
+         padding: 0px;
+      }
+
+      .navwrap2 a {
+         color:white;
+         font-size: 18px;
+         text-shadow:-3px 2px 2px rgb(0, 0, 0);
+         font-family:"Playfair Display SC", "Times New Roman", serif;
+         text-decoration: none;
+         /*background:url("../images/Single_Blueberry.jpg");
+         background-repeat: no-repeat;
+         background-position: top;  
+         background-size: 67%;
+         padding: 43px;*/
+         font-weight: bold;
+
+         }
+      .challengearticle p {
+         color:black;
+         font-size:16px;
+         font-family: "Hammersmith One", "Times New Roman", serif;
+         width: 900px;
+         padding-left:225px;
+         padding-top:20px;
+         text-align: left;
+      }
+
+      .challengearticle h2 {
+         color:black;
+         font-family: "Playfair Display SC", "Times New Roman", serif;
+         padding-top:75px;
+         text-align: left;
+         padding-left: 225px;
+
+      }
+
+      .challengearticle em {
+         color:black;
+         font-family:"Hammersmith One", "Times New Roman", serif;
+         padding-left: 225px;
+         text-transform: italics
+      }
+
+   /*********************
+   Footer Info
+   *********************/
+
+   .footwrap {
+      height: 155px;
+      clear:both;
+      background-color: rgb(85, 245, 149);
+
+   }
+
+   .footwrap img{
+      display: inline;
+      height:78px;
+      width:74px;
+      float:left;
+   }
+
+   .social-stickers{
+      margin-left:487px;
+   }
+
+   .footwrap h1,h2,h3,p, a{
+         font-family: "Playfair Display SC", "Times New Roman", serif;
+         color:#444;
+         text-decoration: none;
+   }
+
+   .centerfoot h1,h2,h3,p {
+         text-align: center;
+   }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
