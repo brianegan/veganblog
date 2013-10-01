@@ -37,9 +37,10 @@ Index
    .tagline {
    color: #fff;
    text-shadow: 0 0 10px #000;
+   font-size: 32px;
+   padding-left: 80px;
    }
 
-<<<<<<< HEAD
    .col-sm-8 {
    width: 66.666666666666%;
    float:left;
@@ -47,19 +48,18 @@ Index
    min-height: 1px;
    padding-right: 15px;
    padding-left: 15px;
-=======
+   }
+   
    #navigation li{
-   		display: block;
-   		float:right;
-         margin-right:57px;
-         width: 340px;
-         height: 310px;
-   		text-decoration: none;
-   		position: relative;
-         background:url("../images/watermelon.jpg");
-         background-position: top; 
-
->>>>>>> a9bc013550f2231b0d1ffc3cd8a917b8ad67d41b
+   display: block;
+   float:right;
+   margin-right:57px;
+   width: 340px;
+   height: 310px;
+   text-decoration: none;
+   position: relative;
+   background:url("../images/watermelon.jpg");
+   background-position: top; 
    }
    
    p {
@@ -75,23 +75,22 @@ Index
 
 
 
+
+
 /*******************
 RECIPES Page
 *******************/
 
    .navwrap li {
-<<<<<<< HEAD
    display: inline-block;
    text-decoration: none;
    float:right;
    margin:10px;
-=======
-      display: inline-block;
-      text-decoration: none;
-      float:right;
-      margin:10px;
-      margin-right:70px;
->>>>>>> a9bc013550f2231b0d1ffc3cd8a917b8ad67d41b
+   display: inline-block;
+   text-decoration: none;
+   float:right;
+   margin:10px;
+   margin-right:70px;
 
    }
 
@@ -114,8 +113,7 @@ RECIPES Page
       width: 1328px;
    }
 
-<<<<<<< HEAD
-=======
+
    .recipes {
 		width:700px;
       float:right;
@@ -123,7 +121,6 @@ RECIPES Page
    	
    }
 
->>>>>>> a9bc013550f2231b0d1ffc3cd8a917b8ad67d41b
 	#recipeimage {
    float:left;
    display: inline;
@@ -136,16 +133,13 @@ RECIPES Page
    color:#444;
    float:left;
    width:400px;
-<<<<<<< HEAD
    margin-right:136px;
    margin-top:58px;
    margin-left:-114px;
    font-size:30px;
-=======
    margin-top:27px;
    margin-right: 511px;
    font-size:28px;
->>>>>>> a9bc013550f2231b0d1ffc3cd8a917b8ad67d41b
    }
 
    .recipetext h2{
