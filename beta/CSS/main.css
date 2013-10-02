@@ -229,25 +229,9 @@ RECIPES Page
    Footer Info
    *********************/
 
-   .footwrap {
-      height: 155px;
-      clear:both;
-      background-color: rgb(85, 245, 149);
-
+   .col-lg-12 {
+   padding-top: 30px;
    }
-
-   .footwrap img{
-      display: inline;
-      height:78px;
-      width:74px;
-      float:left;
-   }
-
-   .social-stickers{
-      margin-left:487px;
-   }
-
-  
   
  
 
