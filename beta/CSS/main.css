@@ -1,0 +1,269 @@
+/* ===================================================
+LIVE CLEAN BETA 
+=================================================== */
+   /**
+   Clear Fix
+   **/
+   .cf:before,
+   .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+   }
+
+   .cf:after {
+    clear: both;
+   }
+
+   /**
+    * For IE 6/7 only
+    * Include this rule to trigger hasLayout and contain floats.
+    */
+   .cf {
+       *zoom: 1;
+   }
+/*******************
+Index
+*******************/
+
+   body {
+
+   }
+   .business-header {
+   height: 400px;
+   background: url(http://www.dailyhiit.com/hiit-blog/wp-content/uploads/2013/07/vegan2.jpg) center center no-repeat;
+   background-size: cover;
+   }
+
+   .tagline {
+   color: #fff;
+   text-shadow: 0 0 10px #000;
+   font-size: 32px;
+   text-align: center;
+   }
+
+   .tagline-quote  {
+   color:#fff;
+   text-shadow: 0 0 10px #000;
+   font-size: 32px;
+   text-align: center;
+   padding-right:180px;
+   padding-top: 240px;
+   position: absolute;
+
+   }
+
+   .col-sm-8 {
+   width: 66.666666666666%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   }
+   
+   #navigation li{
+   display: block;
+   float:right;
+   margin-right:57px;
+   width: 340px;
+   height: 310px;
+   text-decoration: none;
+   position: relative;
+   background:url("../images/watermelon.jpg");
+   background-position: top; 
+   }
+
+   #navigation a{
+   color: #fff;
+   text-shadow: 0 0 10px #000;
+   text-decoration: none;
+   padding-left:130px;
+   padding-top:130px;   
+   position: absolute;
+   font-size: 22px;
+   }
+   
+   p {
+   margin:0 0 10px;
+   padding-left:55px;
+   padding-right:55px;
+   }
+
+   .mainheader h1 {
+   padding-left:40px;   
+   }
+
+   .col-lg-8 h2{
+   font-size: 31.5px; 
+   padding-left:48px;  
+   }
+
+
+
+
+
+/*******************
+RECIPES Page
+*******************/
+
+   .navwrap li {
+   display: inline-block;
+   text-decoration: none;
+   float:right;
+   margin:10px;
+   display: inline-block;
+   text-decoration: none;
+   float:right;
+   margin:10px;
+   margin-right:70px;
+
+   }
+
+   .navwrap a {
+   color:white;
+   font-size: 18px;
+   text-shadow:-3px 2px 2px rgb(0, 0, 0);
+   font-family:"Playfair Display SC", "Times New Roman", serif;
+   text-decoration: none;
+   /*background:url("../images/orange.jpg");
+   background-repeat: no-repeat;
+   background-position: top;  
+   background-size: 67%;
+   padding: 43px;*/
+   font-weight: bold;
+
+   }
+
+   .pageheader {
+      width: 1328px;
+   }
+
+
+   .recipes {
+		width:700px;
+      float:right;
+  		margin-top:-1615px;
+   	
+   }
+
+	#recipeimage {
+   float:left;
+   display: inline;
+	}
+
+   .recipetext p {
+   display: inline;
+   font-family: "Chelsea Market","Hammersmith One", "Times New Roman", serif;
+   text-align: left;
+   color:#444;
+   float:left;
+   width:400px;
+   margin-right:136px;
+   margin-top:58px;
+   margin-left:-114px;
+   font-size:30px;
+   margin-top:27px;
+   margin-right: 511px;
+   font-size:28px;
+   }
+
+   .recipetext h2{
+      float:left;
+      margin-right:500px;
+      font-family: "Chelsea Market","Hammersmith One", "Times New Roman", serif;
+   }  
+
+   .pageheader {
+      border-bottom: 12px;
+   }
+
+/*********************
+   30 Days Page
+*********************/
+   .navwrap2 li {
+   display: inline-block;
+   text-decoration: none;
+   float:right;
+   margin:10px;
+   }
+
+   .navwrap2 ul{
+   padding: 0px;
+   }
+
+   .navwrap2 a {
+   color:white;
+   font-size: 18px;
+   text-shadow:-3px 2px 2px rgb(0, 0, 0);
+   font-family:"Playfair Display SC", "Times New Roman", serif;
+   text-decoration: none;
+   font-weight: bold;
+   }
+   
+   .challengearticle p {
+   color:black;
+   font-size:16px;
+   font-family: "Hammersmith One", "Times New Roman", serif;
+   width: 900px;
+   padding-left:225px;
+   padding-top:20px;
+   text-align: left;
+   }
+
+   .challengearticle h2 {
+   color:black;
+   font-family: "Playfair Display SC", "Times New Roman", serif;
+   padding-top:75px;
+   text-align: left;
+   padding-left: 225px;
+   }
+
+   .challengearticle em {
+   color:black;
+   font-family:"Hammersmith One", "Times New Roman", serif;
+   padding-left: 225px;
+   text-transform: italics
+   }
+
+   /*********************
+   Footer Info
+   *********************/
+
+   .footwrap {
+      height: 155px;
+      clear:both;
+      background-color: rgb(85, 245, 149);
+
+   }
+
+   .footwrap img{
+      display: inline;
+      height:78px;
+      width:74px;
+      float:left;
+   }
+
+   .social-stickers{
+      margin-left:487px;
+   }
+
+  
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
