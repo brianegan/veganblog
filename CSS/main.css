@@ -1,6 +1,6 @@
 /* ===================================================
-   LIVE CLEAN BETA 
-   =================================================== */
+LIVE CLEAN BETA 
+=================================================== */
    /**
    Clear Fix
    **/
@@ -14,97 +14,77 @@
     clear: both;
    }
 
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
-}
-   /*******************
-   Index
-   *******************/
+   /**
+    * For IE 6/7 only
+    * Include this rule to trigger hasLayout and contain floats.
+    */
+   .cf {
+       *zoom: 1;
+   }
+/*******************
+Index
+*******************/
 
    body {
 
-   	height: 960px;
+   }
+   .business-header {
+   height: 400px;
+   background: url(http://www.dailyhiit.com/hiit-blog/wp-content/uploads/2013/07/vegan2.jpg) center center no-repeat;
+   background-size: cover;
    }
 
-   .mainheader h1{
-   	text-align: center;
-      color:#444;
-   	font-family:"Playfair Display SC", "Times New Roman", serif;
-      background-color:rgb(85, 245, 149);
+   .tagline {
+   color: #fff;
+   text-shadow: 0 0 10px #000;
    }
 
-   .mainheader title {
-	  background-color:#444;
-	}
-
-   #navigation {
-     height:400px;
+   .col-sm-8 {
+   width: 66.666666666666%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   }
+   
+   p {
+   margin:0 0 10px;
+   padding-left:55px;
+   padding-right:55px;
    }
 
-   #navigation li{
-   		display: block;
-   		float:right;
-         margin-right:78px;
-         width: 340px;
-         height: 310px;
-   		text-decoration: none;
-   		position: relative;
-         background:url("../images/watermelon.jpg");
-         background-position: top; 
-
+   .col-lg-8 h2{
+   font-size: 31.5px; 
+   padding-left:48px;  
    }
 
-   #navigation li:hover{
-   		top:-30px;
-   }
 
-   #navigation a {
-   		color:#fafafa;
-         display: block;
-   		font-size: 32px;
-         padding-top: 140px;
-         text-shadow: 0px 2px 2px black;
-   		font-family:"Playfair Display SC", "Times New Roman", serif;
-   		text-decoration: none;	
-   		font-weight: bold;
-         text-align: center;
-   }
 
-   #mainpagequote h2{
-	   	display: block;
-	   	color:#444;
-	   	font-style: italic;
-	   	font-size: 18px;
-   }
-
-  /*******************
-   RECIPES Page
-   *******************/
+/*******************
+RECIPES Page
+*******************/
 
    .navwrap li {
-      display: inline-block;
-      text-decoration: none;
-      float:right;
-      margin:10px;
+   display: inline-block;
+   text-decoration: none;
+   float:right;
+   margin:10px;
 
    }
 
    .navwrap a {
-      color:white;
-      font-size: 18px;
-      text-shadow:-3px 2px 2px rgb(0, 0, 0);
-      font-family:"Playfair Display SC", "Times New Roman", serif;
-      text-decoration: none;
-      /*background:url("../images/orange.jpg");
-      background-repeat: no-repeat;
-      background-position: top;  
-      background-size: 67%;
-      padding: 43px;*/
-      font-weight: bold;
+   color:white;
+   font-size: 18px;
+   text-shadow:-3px 2px 2px rgb(0, 0, 0);
+   font-family:"Playfair Display SC", "Times New Roman", serif;
+   text-decoration: none;
+   /*background:url("../images/orange.jpg");
+   background-repeat: no-repeat;
+   background-position: top;  
+   background-size: 67%;
+   padding: 43px;*/
+   font-weight: bold;
 
    }
 
@@ -112,16 +92,9 @@
       width: 1328px;
    }
 
-   .recipes {
-		width:700px;
-      float:right;
-  		margin-top:112px;
-   	
-   }
-
 	#recipeimage {
-      float:left;
-      display: inline;
+   float:left;
+   display: inline;
 	}
 
    .recipetext p {
@@ -131,6 +104,7 @@
    color:#444;
    float:left;
    width:400px;
+   margin-right:136px;
    margin-top:58px;
    margin-left:-114px;
    font-size:30px;
@@ -144,60 +118,53 @@
       border-bottom: 12px;
    }
 
-   /*********************
+/*********************
    30 Days Page
-   *********************/
-      .navwrap2 li {
-         display: inline-block;
-         text-decoration: none;
-         float:right;
-         margin:10px;
+*********************/
+   .navwrap2 li {
+   display: inline-block;
+   text-decoration: none;
+   float:right;
+   margin:10px;
+   }
 
-         }
+   .navwrap2 ul{
+   padding: 0px;
+   }
 
-      .navwrap2 ul{
-         padding: 0px;
-      }
+   .navwrap2 a {
+   color:white;
+   font-size: 18px;
+   text-shadow:-3px 2px 2px rgb(0, 0, 0);
+   font-family:"Playfair Display SC", "Times New Roman", serif;
+   text-decoration: none;
+   font-weight: bold;
+   }
+   
+   .challengearticle p {
+   color:black;
+   font-size:16px;
+   font-family: "Hammersmith One", "Times New Roman", serif;
+   width: 900px;
+   padding-left:225px;
+   padding-top:20px;
+   text-align: left;
+   }
 
-      .navwrap2 a {
-         color:white;
-         font-size: 18px;
-         text-shadow:-3px 2px 2px rgb(0, 0, 0);
-         font-family:"Playfair Display SC", "Times New Roman", serif;
-         text-decoration: none;
-         /*background:url("../images/Single_Blueberry.jpg");
-         background-repeat: no-repeat;
-         background-position: top;  
-         background-size: 67%;
-         padding: 43px;*/
-         font-weight: bold;
+   .challengearticle h2 {
+   color:black;
+   font-family: "Playfair Display SC", "Times New Roman", serif;
+   padding-top:75px;
+   text-align: left;
+   padding-left: 225px;
+   }
 
-         }
-      .challengearticle p {
-         color:black;
-         font-size:16px;
-         font-family: "Hammersmith One", "Times New Roman", serif;
-         width: 900px;
-         padding-left:225px;
-         padding-top:20px;
-         text-align: left;
-      }
-
-      .challengearticle h2 {
-         color:black;
-         font-family: "Playfair Display SC", "Times New Roman", serif;
-         padding-top:75px;
-         text-align: left;
-         padding-left: 225px;
-
-      }
-
-      .challengearticle em {
-         color:black;
-         font-family:"Hammersmith One", "Times New Roman", serif;
-         padding-left: 225px;
-         text-transform: italics
-      }
+   .challengearticle em {
+   color:black;
+   font-family:"Hammersmith One", "Times New Roman", serif;
+   padding-left: 225px;
+   text-transform: italics
+   }
 
    /*********************
    Footer Info
@@ -222,17 +189,8 @@
       margin-left:525px;
    }
 
-   .footwrap h1,h2,h3,p, a{
-         font-family: "Playfair Display SC", "Times New Roman", serif;
-         color:#444;
-         text-decoration: none;
-   }
-
-   .centerfoot h1,h2,h3,p {
-         text-align: center;
-   }
-
-
+  
+  
  
 
 

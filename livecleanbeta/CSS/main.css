@@ -38,7 +38,18 @@ Index
    color: #fff;
    text-shadow: 0 0 10px #000;
    font-size: 32px;
-   padding-left: 80px;
+   text-align: center;
+   }
+
+   .tagline-quote  {
+   color:#fff;
+   text-shadow: 0 0 10px #000;
+   font-size: 32px;
+   text-align: center;
+   padding-right:180px;
+   padding-top: 240px;
+   position: absolute;
+
    }
 
    .col-sm-8 {
@@ -61,11 +72,25 @@ Index
    background:url("../images/watermelon.jpg");
    background-position: top; 
    }
+
+   #navigation a{
+   color: #fff;
+   text-shadow: 0 0 10px #000;
+   text-decoration: none;
+   padding-left:130px;
+   padding-top:130px;   
+   position: absolute;
+   font-size: 22px;
+   }
    
    p {
    margin:0 0 10px;
    padding-left:55px;
    padding-right:55px;
+   }
+
+   .mainheader h1 {
+   padding-left:40px;   
    }
 
    .col-lg-8 h2{
